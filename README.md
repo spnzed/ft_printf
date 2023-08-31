@@ -68,7 +68,7 @@ Usage
 </h2>
 
 ### Requirements
-`printf` requires a *gcc* compiler and some standard libraries.
+`ft_printf` requires a *gcc* compiler and some standard libraries.
 
 ### Instructions
 
