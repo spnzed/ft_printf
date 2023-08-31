@@ -46,22 +46,16 @@ The project
 - [`libft functions`](libft/)
 - [`header file`](include/libftprintf.h)
 
-Main functions
+Main
 	
 - [`ft_printf.c`](srcs/ft_printf.c)
-- [`ft_initialize.c`](srcs/ft_initialize.c)
-- [`ft_placeholder.c`](srcs/ft_placeholder.c)
-- [`ft_parse.c`](srcs/ft_parse.c)
-- [`ft_conversion.c`](srcs/ft_conversion.c)
 
 Conversion functions
 
-- [`ft_convert_c.c`](srcs/ft_convert_c.c)
-- [`ft_convert_d_i.c`](srcs/ft_convert_d_i.c)
-- [`ft_convert_p.c`](srcs/ft_convert_p.c)
-- [`ft_convert_pct.c`](srcs/ft_convert_pct.c)
-- [`ft_convert_s.c`](srcs/ft_convert_s.c)
-- [`ft_convert_ux.c`](srcs/ft_convert_ux.c)
+- [`ft_printf_ch_str.c`](srcs/ft_printf_ch_str.c)
+- [`ft_printf_ptr_int.c`](srcs/ft_printf_ptr_int.c)
+- [`ft_printf_uns_per.c`](srcs/ft_printf_uns_per.c)
+- [`ft_printf_x_X.c`](srcs/ft_printf_x_X.c)
 
 ### Conversions & Flags & Expected Order
 
