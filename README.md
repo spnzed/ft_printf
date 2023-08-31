@@ -95,14 +95,14 @@ Usage
 </h2>
 
 ### Requirements
-`libftprintf` requires a *gcc* compiler and some standard libraries.
+`printf` requires a *gcc* compiler and some standard libraries.
 
 ### Instructions
 
 Clone this repository in your local computer:
 
 ```sh
-$> git clone https://github.com/caroldaniel/42sp-cursus_libft.git path/to/libftprintf
+$> git clone https://github.com/spnzed/ft_printf.git
 ```
 
 In your local repository, run `make`
@@ -113,18 +113,11 @@ $> make
 
 > `make` suports 6 flags: 
 > - `make all` or simply `make` compiles printf in its mandatory format
-> - `make bonus` compiles printf in its bonus format
 > - `make clean` deletes the `.o` files generated during compilation
 > - `make fclean` deletes the `.o` and the `libftprintf.a` library file generated
 > - `make re` executes `fclean` and `all` in sequence, recompiling the library
-> - `make rebonus` executes `fclean` and `bonus` in sequence, recompiling the library with the bonus functions
 
 To use the libftprintf in your code you will need to include the header:
 ```c
-#include "libftprintf.h" 
-```
-
-When compiling your own code with `libftprintf`, don't forget to use the flags:
-```sh
-$> ... -lftprintf -L path/to/libftprintf.a -I path/to/libftprintf.h 
+#include "ft_printf.h" 
 ```
