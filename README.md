@@ -44,7 +44,7 @@ The project
 	
 - [`Makefile`](Makefile)
 - [`libft functions`](libft/)
-- [`header file`](include/libftprintf.h)
+- [`header file`](include/ftprintf.h)
 
 Main
 	
