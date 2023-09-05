@@ -42,10 +42,10 @@ Main
 
 Conversion functions
 
-- [`ft_printf_ch_str.c`](srcs/ft_printf_ch_str.c)
-- [`ft_printf_ptr_int.c`](srcs/ft_printf_ptr_int.c)
-- [`ft_printf_uns_per.c`](srcs/ft_printf_uns_per.c)
-- [`ft_printf_x_X.c`](srcs/ft_printf_x_X.c)
+- [`ft_printf_ch_str.c`](src/ft_printf_ch_str.c)
+- [`ft_printf_ptr_int.c`](src/ft_printf_ptr_int.c)
+- [`ft_printf_uns_per.c`](src/ft_printf_uns_per.c)
+- [`ft_printf_x_X.c`](src/ft_printf_x_X.c)
 
 ### Conversions & Flags & Expected Order
 
